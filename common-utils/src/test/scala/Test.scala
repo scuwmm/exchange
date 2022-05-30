@@ -1,10 +1,11 @@
-import akka.util.Timeout
 import io.circe.generic.auto._
+import io.common.util.JsonUtil
+
 import scala.concurrent.duration._
 
 object Test extends JsonUtil {
 
-  implicit val t: Timeout = Timeout(10.second)
+//  implicit val t: Timeout = Timeout(10.second)
 
   case class People(id: Long, name:String)
   def main(args: Array[String]): Unit = {
