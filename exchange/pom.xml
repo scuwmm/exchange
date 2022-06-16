@@ -16,6 +16,7 @@
 	<description>exchange</description>
 	<modules>
 		<module>euraka</module>
+		<module>auth</module>
 	</modules>
 	<properties>
 		<java.version>18</java.version>
